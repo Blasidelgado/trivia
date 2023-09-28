@@ -60,3 +60,30 @@ input[type="text"]:hover {
     background-color: #f5f5f5;
     transition: color 2s ease-in-out, background-color 0.15s ease-in-out;
 }
+
+/* Set default height for correct/incorrect text paragraph*/
+#result1, #result2 {
+    height: 2rem;
+}
+
+/* Set label visible for accesibility purposes only */
+.hidden {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+}
+
+/* Remove unordered list default padding */
+ul {
+    padding: 0;
+}
+
+/* Remove dot from list items */
+li.unstyled {
+    list-style-type: none;
+}
